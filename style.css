@@ -138,6 +138,112 @@ h3{
 .Section1-images{
     padding-top: 3px;
 }
+/*online-game-section styles*/
+.online-game-sectiom{
+    padding-top: 5em;
+    padding-bottom: 6em;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.online-game-section-header{
+    text-align: center;
+}
+.online-game-section-header h1{
+    font-size: 2.8em;
+}
+.online-game-section-header span{
+    color:#F948B2;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 1em;
+}
+figcaption{
+    font-size: 0.8em;
+}
+
+/*play-instantly-section-style*/
+.play-instant{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    gap: 8em;
+    padding-bottom: 2em;
+}
+.play-instant-text span{
+    color: #F948B2;
+    
+}
+
+.play-instant-text h1{
+    font-size: 3em;
+}
+.play-instant-text{
+    padding-top: 5.5em;
+    
+}
+
+.small-image{
+    margin-left: -30%;
+    margin-top: -11em;
+}
+
+/*section2 styles*/
+
+.section2{
+padding-top: 3.5em;
+padding-bottom: 5em;
+background-color: #8C57EE0D, #F144AE0D;
+}
+.section2-first-row{
+    display: flex;
+    justify-content: center;
+}
+.section2-second-row{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section2-items{
+    border-radius: 1.5em;
+    font-size: 1.2em;
+    margin-left: 1.5em;
+    background: #FFF;
+    cursor: pointer;
+}
+.section2-items:hover{
+    
+    border-radius: 1.5em;
+    border: 2px solid #FF42A5;
+}
+sup:hover {
+    color: #FF42A5;
+}
+.section2-items3{
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+    border-radius: 1.5em;
+    font-size: 1.2em;
+    margin-left: 1.5em;
+    background: #FFF;
+    width: 10em;
+    cursor: pointer;
+
+}
+.section2-items img{
+    width: 2.5em;
+    height: 2em;
+}
+
+
+
+
+
 /*Footer styles*/
 footer{
     background: #0B0223;
@@ -178,6 +284,10 @@ footer{
     gap: 1.7em;
     margin-top: 1.5em;
 }
+.footer-second-row-icon{
+    cursor: pointer;
+}
+
 .footer-third-row{
     display: flex;
     justify-content: center; 
@@ -190,6 +300,7 @@ footer{
     font-size: 0.8em;
     font-weight: 500;
 }
+
 .last-text{
     color: rgba(255, 255, 255, 0.60);
     font-size: 0.8em;
